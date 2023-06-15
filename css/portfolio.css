@@ -1,0 +1,79 @@
+menu {
+    font-size: x-large;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+header {
+    background-color: rgb(24, 28, 57);
+    border-radius: 5px;
+    width: 210vh;
+    height: 10vh;
+    padding-top: 6px;
+    padding-right: 30px;
+}
+header:hover {box-shadow: 0px 1px 10px 1px rgba(255, 255, 255, 0.793);}
+
+body {
+    background-color: rgb(57, 62, 96);
+}
+
+.img-acceuil {
+    margin-top: 60px;
+    margin-left: 280px;
+    width: 135vh;
+    height: 70vh;
+    box-shadow: 0px 1px 10px 1px rgba(255, 255, 255, 0.793);
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+a:hover 
+{
+    color: white;
+    text-decoration: none; 
+    cursor: pointer;
+}
+
+.infos-perso {
+    color: white;
+    font-size: x-large;
+    margin-left: 100px;
+}
+
+.profil {
+    display: flex;
+    margin-top: 60px;
+    margin-left: 400px;
+    background-color: rgb(36, 41, 68);
+    border-radius: 10px;
+    width: 100vh;
+    height: 35vh;
+}
+.pi {
+    width: 140px;
+    height: 167px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+.linkedin {
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+}
+.gmail {
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    margin-left: 10px;
+}
+.linkedin:hover, .gmail:hover {box-shadow: 0px 1px 10px 1px rgba(255, 255, 255, 0.793);}
+
+.ap {
+    display: flex;
+    justify-content: space-around;
+}
